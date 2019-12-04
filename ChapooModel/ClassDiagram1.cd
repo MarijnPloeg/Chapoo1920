@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ChapooModel.Employee" Collapsed="true">
+    <Position X="1" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAABAAAAAAAAAQAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChapooModel.MenuProduct" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAgAAAAAAAAAAQAgAAAAAAAAACAAAAACAA=</HashCode>
+      <FileName>MenuProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChapooModel.Order" Collapsed="true">
+    <Position X="1" Y="1.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAEAAEAAAAAAAAAQAAACAAAQAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChapooModel.Table" Collapsed="true">
+    <Position X="2.75" Y="1.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAEAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Table.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="ChapooModel.EmployeeType" Collapsed="true">
+    <Position X="1" Y="2.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAMIIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EmployeeType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

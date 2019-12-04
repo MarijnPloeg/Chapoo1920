@@ -1,0 +1,9 @@
+\\Mac\Home\Desktop\Studie\Periode 4\Project Chapoo\Code\ChapooDAL\bin\Debug\ChapooDAL.dll.config
+\\Mac\Home\Desktop\Studie\Periode 4\Project Chapoo\Code\ChapooDAL\bin\Debug\ChapooDAL.dll
+\\Mac\Home\Desktop\Studie\Periode 4\Project Chapoo\Code\ChapooDAL\bin\Debug\ChapooDAL.pdb
+\\Mac\Home\Desktop\Studie\Periode 4\Project Chapoo\Code\ChapooDAL\bin\Debug\ChapooModel.dll
+\\Mac\Home\Desktop\Studie\Periode 4\Project Chapoo\Code\ChapooDAL\bin\Debug\ChapooModel.pdb
+\\Mac\Home\Desktop\Studie\Periode 4\Project Chapoo\Code\ChapooDAL\obj\Debug\ChapooDAL.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\Studie\Periode 4\Project Chapoo\Code\ChapooDAL\obj\Debug\ChapooDAL.csproj.CopyComplete
+\\Mac\Home\Desktop\Studie\Periode 4\Project Chapoo\Code\ChapooDAL\obj\Debug\ChapooDAL.dll
+\\Mac\Home\Desktop\Studie\Periode 4\Project Chapoo\Code\ChapooDAL\obj\Debug\ChapooDAL.pdb

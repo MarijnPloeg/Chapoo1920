@@ -1,0 +1,5 @@
+\\Mac\Home\Desktop\Studie\Periode 4\Project Chapoo\Code\ChapooModel\bin\Debug\ChapooModel.dll
+\\Mac\Home\Desktop\Studie\Periode 4\Project Chapoo\Code\ChapooModel\bin\Debug\ChapooModel.pdb
+\\Mac\Home\Desktop\Studie\Periode 4\Project Chapoo\Code\ChapooModel\obj\Debug\ChapooModel.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\Studie\Periode 4\Project Chapoo\Code\ChapooModel\obj\Debug\ChapooModel.dll
+\\Mac\Home\Desktop\Studie\Periode 4\Project Chapoo\Code\ChapooModel\obj\Debug\ChapooModel.pdb
