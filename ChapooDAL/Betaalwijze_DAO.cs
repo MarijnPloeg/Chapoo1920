@@ -5,26 +5,26 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ChapooModel
+using ChapooModel;
 
 namespace ChapooDAL
 {
     public class Betaalwijze_DAO : Base
     {
-        public List<Betaalwijze> DB_Get_All_Betaalwijze()
+        public List<Betaling> DB_Get_All_Betaalwijze()
         {
             string query = "SELECT Betaal_ID, Order_ID, Betaal_Methode, TotaalPrijs, Fooi FROM Betaalwijze";
             SqlParameter[] sqlParameters = new SqlParameter[0];
             return ReadTables(ExecuteSelectQuery(query, sqlParameters));
         }
 
-        private List<Betaalwijze> ReadTables(DataTable dataTable)
+        private List<Betaling> ReadTables(DataTable dataTable)
         {
-            List<Betaalwijze> betaalwijzes = new List<Betaalwijze>();
+            List<Betaling> betaalwijzes = new List<Betaling>();
 
             foreach (DataRow dr in dataTable.Rows)
             {
-                Betaalwijze  betaalwijze = new Betaalwijze()
+                Betaling betaalwijze = new Betaling()
                 {
                     Betaal_ID = (int)dr["Betaal_ID"],
                     Order_ID = (int)dr["Order_ID"],

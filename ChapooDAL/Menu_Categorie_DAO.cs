@@ -5,13 +5,13 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ChapooModel
+using ChapooModel;
 
 namespace ChapooDAL
 {
     public class Menu_Categorie_DAO : Base
     {
-        public List<Menu_Categorie> DB_Get_All_Betaalwijze()
+        public List<Menu_Categorie> DB_Get_All_MenuCategorie()
         {
             string query = "SELECT Betaal_ID, Order_ID, Betaal_Methode, TotaalPrijs, Fooi FROM Betaalwijze";
             SqlParameter[] sqlParameters = new SqlParameter[0];

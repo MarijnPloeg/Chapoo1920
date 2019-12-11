@@ -45,7 +45,9 @@
   <ItemGroup>
     <Compile Include="Base.cs" />
     <Compile Include="Betaalwijze_DAO.cs" />
+    <Compile Include="Menukaart_DAO.cs" />
     <Compile Include="Menu_Categorie_DAO.cs" />
+    <Compile Include="Menu_Items_DAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

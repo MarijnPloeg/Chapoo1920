@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ChapooModel
 {
     public enum BetaalMethode { contant, pin }
-    public class Betaalwijze
+    public class Betaling
     {
         public int Betaal_ID { get; set; }
         public int Order_ID { get; set; }

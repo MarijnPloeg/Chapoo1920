@@ -3,21 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
-using ChapooDAL;
 using ChapooModel;
+using ChapooDAL;
+using System.Windows.Forms;
 
 namespace ChapooLogic
 {
-    public class Betaalwijze_Service
+    public class Menu_Categorie_Servicecs
     {
-        Betaalwijze_DAO betaalwijze_db = new Betaalwijze_DAO();
-        public List<Betaling> GetBetalingen()
+        Menu_Categorie_DAO menu_categorie_db = new Menu_Categorie_DAO();
+        public List<Menu_Categorie> GetMenu_Categories()
         {
             try
             {
-                List<Betaling> betaalwijzes = betaalwijze_db.DB_Get_All_Betaalwijze();
-                return betaalwijzes;
+                List<Menu_Categorie> menu_categorien = menu_categorie_db.DB_Get_All_MenuCategorie();
+                return menu_categorien;
             }
             catch (Exception)
             {
