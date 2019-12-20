@@ -31,9 +31,9 @@ namespace ChapooDAL
                     Tijd = (DateTime)dr["Tijd"]
 
                 };
-                menu_items.Add(menu_Item);
+                menukaarten.Add(menukaart);
             }
-            return menu_items;
+            return menukaarten;
         }
     }
 }

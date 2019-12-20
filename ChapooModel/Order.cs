@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace ChapooModel
 {
-    public class Tafel
+
+    public class Orders
     {
+        public int Order_ID { get; set; }
+        public int Werknemer_ID { get; set; }
         public int Tafel_ID { get; set; }
-        public Tafel_Status Tafel_Status { get; set; }
-        public int Aantal_Personen { get; set; }
+        public string Opmerking { get; set; }
+        public int Betaald { get; set; }
     }
 }

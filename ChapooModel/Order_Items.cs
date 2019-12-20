@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ChapooModel
 {
-    public enum Order_Status {Besteld, Gereed, Gereserveerd }
+    
     public class Order_Items
     {
         public int Order_Item_ID { get; set; }

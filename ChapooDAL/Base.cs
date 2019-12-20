@@ -16,7 +16,7 @@ namespace ChapooDAL
 
         public Base()
         {
-            conn = new SqlConnection(ConfigurationManager.ConnectionStrings["chapoo1920f01"].ConnectionString);
+            conn = new SqlConnection(ConfigurationManager.ConnectionStrings["ChapooData"].ConnectionString);
             adapter = new SqlDataAdapter();
         }
 
@@ -34,9 +34,10 @@ namespace ChapooDAL
             conn.Close();
         }
 
-        protected void ExecuteEditTranQuery(String query, SqlParameter[] sqlParameters, SqlTransaction sqlTransaction)
+        protected void ExecuteEditTranQuery(string query, SqlParameter[] sqlParameters, SqlTransaction sqlTransaction)
         {
             SqlCommand command = new SqlCommand(query, conn, sqlTransaction);
+
             try
             {
                 command.Parameters.AddRange(sqlParameters);
@@ -45,13 +46,11 @@ namespace ChapooDAL
             }
             catch (Exception e)
             {
-                //Print.ErrorLog(e);
-                throw;
+                throw new Exception("Could not connect tot database");
             }
         }
 
-        /* For Insert/Update/Delete Queries */
-        protected void ExecuteEditQuery(String query, SqlParameter[] sqlParameters)
+        protected void ExecuteEditQuery(string query, SqlParameter[] sqlParameters)
         {
             SqlCommand command = new SqlCommand();
 
@@ -65,8 +64,7 @@ namespace ChapooDAL
             }
             catch (SqlException e)
             {
-                // Print.ErrorLog(e);
-                throw;
+                throw new Exception(e.ToString());
             }
             finally
             {
@@ -74,10 +72,7 @@ namespace ChapooDAL
             }
         }
 
-
-
-        /* For Select Queries */
-        protected DataTable ExecuteSelectQuery(String query, params SqlParameter[] sqlParameters)
+        protected DataTable ExecuteSelectQuery(string query, params SqlParameter[] sqlParameters)
         {
             SqlCommand command = new SqlCommand();
             DataTable dataTable;
@@ -95,9 +90,8 @@ namespace ChapooDAL
             }
             catch (SqlException e)
             {
-                // Print.ErrorLog(e);
                 return null;
-                throw;
+                throw new Exception(e.ToString());
             }
             finally
             {

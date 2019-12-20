@@ -49,6 +49,8 @@
     <Compile Include="Menu_Categorie_DAO.cs" />
     <Compile Include="Menu_Items_DAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tafel_DAO.cs" />
+    <Compile Include="Werknemer_DAO.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
