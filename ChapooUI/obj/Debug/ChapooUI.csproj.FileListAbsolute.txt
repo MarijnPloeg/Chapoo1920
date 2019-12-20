@@ -1,0 +1,7 @@
+C:\Users\Gebruiker\Desktop\Web_markup\Assessment\Chapoo1920\ChapooUI\obj\Debug\ChapooUI.csprojAssemblyReference.cache
+C:\Users\Gebruiker\Desktop\Web_markup\Assessment\Chapoo1920\ChapooUI\obj\Debug\Chapoo1819.AfrekenenUI.resources
+C:\Users\Gebruiker\Desktop\Web_markup\Assessment\Chapoo1920\ChapooUI\obj\Debug\Chapoo1819.ManagementUI.resources
+C:\Users\Gebruiker\Desktop\Web_markup\Assessment\Chapoo1920\ChapooUI\obj\Debug\Chapoo1819.LoginUI.resources
+C:\Users\Gebruiker\Desktop\Web_markup\Assessment\Chapoo1920\ChapooUI\obj\Debug\Chapoo1819.Properties.Resources.resources
+C:\Users\Gebruiker\Desktop\Web_markup\Assessment\Chapoo1920\ChapooUI\obj\Debug\ChapooUI.csproj.GenerateResource.cache
+C:\Users\Gebruiker\Desktop\Web_markup\Assessment\Chapoo1920\ChapooUI\obj\Debug\ChapooUI.csproj.CoreCompileInputs.cache

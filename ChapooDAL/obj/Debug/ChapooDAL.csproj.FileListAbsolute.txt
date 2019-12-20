@@ -7,3 +7,13 @@
 \\Mac\Home\Desktop\Studie\Periode 4\Project Chapoo\Code\ChapooDAL\obj\Debug\ChapooDAL.csproj.CopyComplete
 \\Mac\Home\Desktop\Studie\Periode 4\Project Chapoo\Code\ChapooDAL\obj\Debug\ChapooDAL.dll
 \\Mac\Home\Desktop\Studie\Periode 4\Project Chapoo\Code\ChapooDAL\obj\Debug\ChapooDAL.pdb
+C:\Users\Gebruiker\Desktop\Web_markup\Assessment\Chapoo1920\ChapooDAL\bin\Debug\ChapooDAL.dll.config
+C:\Users\Gebruiker\Desktop\Web_markup\Assessment\Chapoo1920\ChapooDAL\bin\Debug\ChapooDAL.dll
+C:\Users\Gebruiker\Desktop\Web_markup\Assessment\Chapoo1920\ChapooDAL\bin\Debug\ChapooDAL.pdb
+C:\Users\Gebruiker\Desktop\Web_markup\Assessment\Chapoo1920\ChapooDAL\bin\Debug\ChapooModel.dll
+C:\Users\Gebruiker\Desktop\Web_markup\Assessment\Chapoo1920\ChapooDAL\bin\Debug\ChapooModel.pdb
+C:\Users\Gebruiker\Desktop\Web_markup\Assessment\Chapoo1920\ChapooDAL\obj\Debug\ChapooDAL.csprojAssemblyReference.cache
+C:\Users\Gebruiker\Desktop\Web_markup\Assessment\Chapoo1920\ChapooDAL\obj\Debug\ChapooDAL.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\Desktop\Web_markup\Assessment\Chapoo1920\ChapooDAL\obj\Debug\ChapooDAL.csproj.CopyComplete
+C:\Users\Gebruiker\Desktop\Web_markup\Assessment\Chapoo1920\ChapooDAL\obj\Debug\ChapooDAL.dll
+C:\Users\Gebruiker\Desktop\Web_markup\Assessment\Chapoo1920\ChapooDAL\obj\Debug\ChapooDAL.pdb

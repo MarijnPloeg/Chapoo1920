@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Afrekenen_Service.cs" />
     <Compile Include="Betaalwijze_Service.cs" />
     <Compile Include="Menu_Categorie_Service.cs" />
     <Compile Include="Menu_Items_Service.cs" />

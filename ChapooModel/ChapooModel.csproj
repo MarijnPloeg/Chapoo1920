@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Afrekenen.cs" />
     <Compile Include="BetaalMethode.cs" />
     <Compile Include="Betaalwijze.cs" />
     <Compile Include="Functie.cs" />
